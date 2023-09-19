@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Rizz
+    </title>
+    <script>
+        var counter = 0;
+        alert("Welcome to the rizz website");
+        var firstButton = function(){
+            var first = document.getElementById("first");
+            document.getElementById("foot").innerHTML = "";
+            first.innerHTML = "<h2>First you stole my heart, now you stole my lungs😏😏 </h2><br><button type=\"button\" onclick=\"secondButton()\">Click me now</button>";
+        }
+        var secondButton = function(){
+            var second = document.getElementById("first");
+            second.innerHTML = '<h2> Will you be my girlfriend?? </h2> <br> <button type="button" onclick="yayy()">Yes</button> <button type="button" onclick="yayy()">No</button>';
+        }
+
+        function yayy(){
+            alert("OMG babe I love you so much ❤️🥰🥰🥰");
+            var footerElement = document.getElementById("foot");
+            var second = document.getElementById("first");
+            second.innerHTML = '<img src = "https://www.happierhuman.com/wp-content/uploads/2022/04/memes-love-marriage-always-and-forever.jpg" alt = "Two kittens (us) loving each other"></img>'
+            footerElement.innerHTML = "<h2>OMG OMG, you won't believe how good i will treat you as my girlfriend. You won't regret this at all babe!!!🥰</h2>";
+
+        }
+    </script>
+</head>
+<body>
+    <style>
+        body{
+            font-family: 'Trebuchet MS';
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        h1{
+            text-align: center;
+            font-size: 96px;
+            margin: auto;
+
+        }
+        h2{
+            font-size: 86px;
+        }
+        div{
+            text-align: center;
+        }
+
+        button{
+            font-size: 67px;
+            border-radius: 50%;
+            text-decoration: none;
+            margin: 50px;
+            padding: 66px 74px;
+            border: 3px solid #75553c;
+            background-color: white;
+            color: black;
+            margin: 16px;
+        }
+
+        button:hover{
+            color: #75553c;
+           
+            border-bottom: 2px solid #75553c;
+        }
+        footer{
+            font-size: 46;
+            text-align: center;
+            text-emphasis: bold;
+            color: #161515;
+            background-color:#75553c;
+            margin-top: auto;
+        }
+    </style>
+    <h1>
+        I bet you did not expect me to create a shitty website for you
+    </h1>
+    <div>
+         <button type="button" onclick="firstButton()">
+            Click me
+        </button>
+    </div>
+   
+    <div id = "first">
+
+    </div>
+
+</body>
+<footer id = "foot">
+</footer>
